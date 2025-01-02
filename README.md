@@ -38,4 +38,4 @@ STRING ./helloworld.exe
 ENTER
 ```
 
-When run on the target Windows machine it will <kbd>WIN</kbd>+<kbd>r</kbd> to open the 'run' dialog, then start `powershell`, then decode the base64-encoded data and save to file, and then finally run the executable.
+When run on the target Windows machine it will <kbd>WIN</kbd>+<kbd>r</kbd> to open the 'run' dialog, then start `powershell`, then decode the base64-encoded data and save to file, and then finally run the executable. The execution of this script can be seen in the video at the top of this file.

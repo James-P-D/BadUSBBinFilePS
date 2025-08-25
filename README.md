@@ -5,7 +5,7 @@ Small program for generating BadUSB script that generates binary files in Python
 
 ## Introduction
 
-When using BadUSB it is sometimes necessary to get a binary file onto the target machine. Unless the ducky device you are using can double up as an HID input *and* an external drive, you typically need to download the binary file from some online source, usually over HTTP(S). As a workaround for this, I decided to create a short Python script which could generate a BadUSB script which included the base64-encoded data for the binary file and was decoded in Powershell.
+When using [BadUSB](https://en.wikipedia.org/wiki/BadUSB) it is sometimes necessary to get a binary file onto the target machine. Unless the ducky device you are using can double up as an HID input *and* an external drive, you typically need to download the binary file from some online source, usually over HTTP(S). As a workaround for this, I decided to create a short Python script which could generate a BadUSB script which included the base64-encoded data for the binary file and was decoded in Powershell.
 
 ## Usage
 
